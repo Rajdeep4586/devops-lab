@@ -1,0 +1,73 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/bf6d406f-3b1b-4e49-94d5-e2170ac29aa2/resourceGroups/managedi-identitiy-poc/providers/Microsoft.Storage/storageAccounts/rajdeepop",
+    "name": "rajdeepop",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "westindia",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2025-04-12T10:47:10.3093051Z",
+            "key2": "2025-04-12T10:47:10.3093051Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "largeFileSharesState": "Enabled",
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-04-12T10:47:10.8093158Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-04-12T10:47:10.8093158Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2025-04-12T10:47:10.2643344Z",
+        "primaryEndpoints": {
+            "dfs": "https://rajdeepop.dfs.core.windows.net/",
+            "web": "https://rajdeepop.z10.web.core.windows.net/",
+            "blob": "https://rajdeepop.blob.core.windows.net/",
+            "queue": "https://rajdeepop.queue.core.windows.net/",
+            "table": "https://rajdeepop.table.core.windows.net/",
+            "file": "https://rajdeepop.file.core.windows.net/"
+        },
+        "primaryLocation": "westindia",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "southindia",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://rajdeepop-secondary.dfs.core.windows.net/",
+            "web": "https://rajdeepop-secondary.z10.web.core.windows.net/",
+            "blob": "https://rajdeepop-secondary.blob.core.windows.net/",
+            "queue": "https://rajdeepop-secondary.queue.core.windows.net/",
+            "table": "https://rajdeepop-secondary.table.core.windows.net/"
+        }
+    },
+    "apiVersion": "2022-05-01"
+}
